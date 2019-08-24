@@ -1,0 +1,108 @@
+Process
+
+
+Mining(bs, chromdriver, selenium 등등)
+-- web 정보 가져오는 것(web scraping 또는 web crawling) -> 비정형
+-- text 정보 가져오는 것(text mining : *.txt, *.csv 등) -> 비정형
+-- data 가져오는 것(data mining : database) -> 정형
+
+Pre-Processing(pandas, numpy)
+
+
+Modeling(여기서 Tensorflow, keras + algorithm)
+
+
+Learning(sk-learn, mglearn)
+
+
+Test
+
+
+Apply(배포 등)
+
+
+-----------------------------------------------------------------------------------------
+
+AWS
+NoSQL - mongodb
+JPA
+
+NLP를 할때 말뭉치 코퍼스 같은 것들 공부 필요
+
+-----------------------------------------------------------------------------------------
+
+GitHub
+
+처음 계정 생성 시, 
+HTTPS는 Public
+SSH는 Private
+
+ssh설정은 카페에서 20190611 [환경설정] 깃 SSH 등록글 참고
+
+GitHub 페이지 우측 상단 옵션 클릭하고 거기서 Settings 클릭 -> SSH and GPG Keys -> New SSH Key
+
+
+
+gitBash이용
+
+*기기에 git repository 등록
+git init
+git add .
+git config --global user.email "imjwpak83@naver.com"
+git config --global user.name "imjwpak83"
+
+*아래 3줄은 GitHub 새 repository 페이지에서 찾아서 입력할 것
+git commit -m "190810 10:22"
+git remote add origin git@github.com:imjwpak/tensor_Test.git
+git push -u origin master 이후 yes -> 비번
+
+*한번 업로드한 뒤에 다시 하는 경우
+git add .
+git commit -m "190810 11:47"
+git push origin master
+
+-----------------------------------------------------------------------------------------
+
+Beautiful Soup : 좀 기능이 약하긴 한데 보안이 취약한 곳에서 사용하거나 입문용으로 좋음
+JSON이 뭔지 -> http://json.org/
+chromedriver 실행할 때는 chrome의 버전 정보를 확인하고 맞는 것으로 다운로드 받아 실행하자
+
+-----------------------------------------------------------------------------------------
+
+konlpy
+가이드대로 설치가 안되면 https://cafe.naver.com/cariro/358 
+conda install -c conda-forge jpype1
+pip install konlpy
+pip install gensim
+
+@staticmethod -> 함수에서 self 가 안쓰이면 반드시 추가해줘야함
+
+한글에서 문자는 ㄱ, ㄴ 이런 것들
+문자열은 가, 강을 강을 건너다 등등 이런 것들
+
+nltk 다운로드 및 설치 오래 걸림
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
