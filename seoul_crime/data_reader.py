@@ -40,5 +40,5 @@ class DataReader:
         return json.load(open(file, encoding='UTF-8'))
 
     def create_gmaps(self):
-        return googlemaps.Client(key='구글맵key')
+        return googlemaps.Client(key='AIzaSyCLYeC - OPD899RsAvIXzrtwTwnMZSFG1 - Y')
 

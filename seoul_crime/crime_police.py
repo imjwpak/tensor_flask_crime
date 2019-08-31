@@ -31,7 +31,7 @@ class CrimeModel:
             print(name + '---------> ' + t[0].get('formatted_address'))
 
         gu_names = []
-        for name in statino_addrs:
+        for name in station_addrs:
             t = name.split()
             gu_name = [gu for gu in t if gu[-1] == '구'][0]
             gu_names.append(gu_name)

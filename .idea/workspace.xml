@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a5482a-0bc6-488b-bfc7-73c4c36e4e00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seoul_crime/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/crime_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/crime_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/crime_police.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/crime_police.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/data/crime_in_Seoul.csv" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/data/crime_in_seoul.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/data_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/data_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/folium_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/folium_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seoul_crime/police_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/seoul_crime/police_norm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
